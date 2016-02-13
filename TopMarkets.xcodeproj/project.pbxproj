@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA3F0D8B1BC4B289001CA387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0D8A1BC4B289001CA387 /* main.m */; };
+		BA3F0D8E1BC4B289001CA387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0D8D1BC4B289001CA387 /* AppDelegate.m */; };
+		BA3F0D911BC4B289001CA387 /* Companies.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0D901BC4B289001CA387 /* Companies.m */; };
+		BA3F0D941BC4B289001CA387 /* CurrentValues.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0D931BC4B289001CA387 /* CurrentValues.m */; };
+		BA3F0D971BC4B289001CA387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3F0D951BC4B289001CA387 /* Main.storyboard */; };
+		BA3F0D991BC4B289001CA387 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3F0D981BC4B289001CA387 /* Images.xcassets */; };
+		BA3F0D9C1BC4B289001CA387 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3F0D9A1BC4B289001CA387 /* LaunchScreen.xib */; };
+		BA3F0DA81BC4B28A001CA387 /* TopMarketsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0DA71BC4B28A001CA387 /* TopMarketsTests.m */; };
+		BA3F0DB31BC4BA7C001CA387 /* Stocks.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0DB21BC4BA7C001CA387 /* Stocks.m */; };
+		BA3F0DB51BC4C7B0001CA387 /* log in Resources */ = {isa = PBXBuildFile; fileRef = BA3F0DB41BC4C7B0001CA387 /* log */; };
+		BA3F0DB91BC4D8F0001CA387 /* 04_03_1-Stock-Market-Prices_web.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA3F0DB81BC4D8F0001CA387 /* 04_03_1-Stock-Market-Prices_web.jpg */; };
+		BA3F0DBD1BC4D99E001CA387 /* stockGraphImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA3F0DBC1BC4D99E001CA387 /* stockGraphImage.jpg */; };
+		BA3F0DC01BC4DE62001CA387 /* CompanyDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0DBF1BC4DE62001CA387 /* CompanyDetails.m */; };
+		BADF61BD1BC630AC0099384D /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF61BC1BC630AC0099384D /* News.m */; };
+		BADF61C21BC63DAF0099384D /* dow-chemical-company-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BADF61C11BC63DAF0099384D /* dow-chemical-company-logo.jpg */; };
+		BADF61C51BC63E210099384D /* NASDAQ_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BADF61C31BC63E210099384D /* NASDAQ_Logo.png */; };
+		BADF61C61BC63E210099384D /* NYSE-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BADF61C41BC63E210099384D /* NYSE-logo.png */; };
+		BAFAF6FD1BC8918800CF7B03 /* Newspaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFAF6FC1BC8918800CF7B03 /* Newspaper.jpg */; };
+		BAFAF6FF1BC894A100CF7B03 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFAF6FE1BC894A100CF7B03 /* MediaPlayer.framework */; };
+		BAFAF7021BC8954800CF7B03 /* NewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFAF7011BC8954800CF7B03 /* NewsView.m */; };
+		BAFAF7041BC8B1CB00CF7B03 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFAF7031BC8B1CB00CF7B03 /* AVKit.framework */; };
+		BAFAF7061BC8B2AC00CF7B03 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFAF7051BC8B2AC00CF7B03 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA3F0DA21BC4B28A001CA387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA3F0D7D1BC4B289001CA387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3F0D841BC4B289001CA387;
+			remoteInfo = TopMarkets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA3F0D851BC4B289001CA387 /* TopMarkets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopMarkets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3F0D891BC4B289001CA387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3F0D8A1BC4B289001CA387 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA3F0D8C1BC4B289001CA387 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA3F0D8D1BC4B289001CA387 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA3F0D8F1BC4B289001CA387 /* Companies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Companies.h; sourceTree = "<group>"; };
+		BA3F0D901BC4B289001CA387 /* Companies.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Companies.m; sourceTree = "<group>"; };
+		BA3F0D921BC4B289001CA387 /* CurrentValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentValues.h; sourceTree = "<group>"; };
+		BA3F0D931BC4B289001CA387 /* CurrentValues.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentValues.m; sourceTree = "<group>"; };
+		BA3F0D961BC4B289001CA387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA3F0D981BC4B289001CA387 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA3F0D9B1BC4B289001CA387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BA3F0DA11BC4B28A001CA387 /* TopMarketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopMarketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3F0DA61BC4B28A001CA387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3F0DA71BC4B28A001CA387 /* TopMarketsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopMarketsTests.m; sourceTree = "<group>"; };
+		BA3F0DB11BC4BA7C001CA387 /* Stocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stocks.h; sourceTree = "<group>"; };
+		BA3F0DB21BC4BA7C001CA387 /* Stocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stocks.m; sourceTree = "<group>"; };
+		BA3F0DB41BC4C7B0001CA387 /* log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = log; sourceTree = "<group>"; };
+		BA3F0DB81BC4D8F0001CA387 /* 04_03_1-Stock-Market-Prices_web.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "04_03_1-Stock-Market-Prices_web.jpg"; path = "../../04_03_1-Stock-Market-Prices_web.jpg"; sourceTree = "<group>"; };
+		BA3F0DBC1BC4D99E001CA387 /* stockGraphImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stockGraphImage.jpg; path = ../../stockGraphImage.jpg; sourceTree = "<group>"; };
+		BA3F0DBE1BC4DE62001CA387 /* CompanyDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyDetails.h; sourceTree = "<group>"; };
+		BA3F0DBF1BC4DE62001CA387 /* CompanyDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyDetails.m; sourceTree = "<group>"; };
+		BADF61BB1BC630AC0099384D /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = News.h; path = TopMarkets.xcodeproj/../News.h; sourceTree = SOURCE_ROOT; };
+		BADF61BC1BC630AC0099384D /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = News.m; path = TopMarkets.xcodeproj/../News.m; sourceTree = SOURCE_ROOT; };
+		BADF61C11BC63DAF0099384D /* dow-chemical-company-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dow-chemical-company-logo.jpg"; path = "../../dow-chemical-company-logo.jpg"; sourceTree = "<group>"; };
+		BADF61C31BC63E210099384D /* NASDAQ_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NASDAQ_Logo.png; path = ../../NASDAQ_Logo.png; sourceTree = "<group>"; };
+		BADF61C41BC63E210099384D /* NYSE-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NYSE-logo.png"; path = "../../NYSE-logo.png"; sourceTree = "<group>"; };
+		BAFAF6FC1BC8918800CF7B03 /* Newspaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Newspaper.jpg; path = ../../Newspaper.jpg; sourceTree = "<group>"; };
+		BAFAF6FE1BC894A100CF7B03 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BAFAF7001BC8954800CF7B03 /* NewsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsView.h; path = ../NewsView.h; sourceTree = "<group>"; };
+		BAFAF7011BC8954800CF7B03 /* NewsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsView.m; path = ../NewsView.m; sourceTree = "<group>"; };
+		BAFAF7031BC8B1CB00CF7B03 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		BAFAF7051BC8B2AC00CF7B03 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3F0D821BC4B289001CA387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFAF7061BC8B2AC00CF7B03 /* AVFoundation.framework in Frameworks */,
+				BAFAF7041BC8B1CB00CF7B03 /* AVKit.framework in Frameworks */,
+				BAFAF6FF1BC894A100CF7B03 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3F0D9E1BC4B28A001CA387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA3F0D7C1BC4B289001CA387 = {
+			isa = PBXGroup;
+			children = (
+				BAFAF7051BC8B2AC00CF7B03 /* AVFoundation.framework */,
+				BAFAF7031BC8B1CB00CF7B03 /* AVKit.framework */,
+				BAFAF6FE1BC894A100CF7B03 /* MediaPlayer.framework */,
+				BA3F0DB41BC4C7B0001CA387 /* log */,
+				BA3F0D871BC4B289001CA387 /* TopMarkets */,
+				BA3F0DA41BC4B28A001CA387 /* TopMarketsTests */,
+				BA3F0D861BC4B289001CA387 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3F0D861BC4B289001CA387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F0D851BC4B289001CA387 /* TopMarkets.app */,
+				BA3F0DA11BC4B28A001CA387 /* TopMarketsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3F0D871BC4B289001CA387 /* TopMarkets */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F0D8C1BC4B289001CA387 /* AppDelegate.h */,
+				BA3F0D8D1BC4B289001CA387 /* AppDelegate.m */,
+				BA3F0DB11BC4BA7C001CA387 /* Stocks.h */,
+				BA3F0DB21BC4BA7C001CA387 /* Stocks.m */,
+				BA3F0D8F1BC4B289001CA387 /* Companies.h */,
+				BA3F0D901BC4B289001CA387 /* Companies.m */,
+				BA3F0DBE1BC4DE62001CA387 /* CompanyDetails.h */,
+				BA3F0DBF1BC4DE62001CA387 /* CompanyDetails.m */,
+				BA3F0D921BC4B289001CA387 /* CurrentValues.h */,
+				BA3F0D931BC4B289001CA387 /* CurrentValues.m */,
+				BADF61BB1BC630AC0099384D /* News.h */,
+				BADF61BC1BC630AC0099384D /* News.m */,
+				BAFAF7001BC8954800CF7B03 /* NewsView.h */,
+				BAFAF7011BC8954800CF7B03 /* NewsView.m */,
+				BA3F0D951BC4B289001CA387 /* Main.storyboard */,
+				BA3F0D981BC4B289001CA387 /* Images.xcassets */,
+				BA3F0D9A1BC4B289001CA387 /* LaunchScreen.xib */,
+				BA3F0D881BC4B289001CA387 /* Supporting Files */,
+			);
+			path = TopMarkets;
+			sourceTree = "<group>";
+		};
+		BA3F0D881BC4B289001CA387 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAF6FC1BC8918800CF7B03 /* Newspaper.jpg */,
+				BADF61C31BC63E210099384D /* NASDAQ_Logo.png */,
+				BADF61C41BC63E210099384D /* NYSE-logo.png */,
+				BADF61C11BC63DAF0099384D /* dow-chemical-company-logo.jpg */,
+				BA3F0DBC1BC4D99E001CA387 /* stockGraphImage.jpg */,
+				BA3F0DB81BC4D8F0001CA387 /* 04_03_1-Stock-Market-Prices_web.jpg */,
+				BA3F0D891BC4B289001CA387 /* Info.plist */,
+				BA3F0D8A1BC4B289001CA387 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA3F0DA41BC4B28A001CA387 /* TopMarketsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F0DA71BC4B28A001CA387 /* TopMarketsTests.m */,
+				BA3F0DA51BC4B28A001CA387 /* Supporting Files */,
+			);
+			path = TopMarketsTests;
+			sourceTree = "<group>";
+		};
+		BA3F0DA51BC4B28A001CA387 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F0DA61BC4B28A001CA387 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3F0D841BC4B289001CA387 /* TopMarkets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3F0DAB1BC4B28A001CA387 /* Build configuration list for PBXNativeTarget "TopMarkets" */;
+			buildPhases = (
+				BA3F0D811BC4B289001CA387 /* Sources */,
+				BA3F0D821BC4B289001CA387 /* Frameworks */,
+				BA3F0D831BC4B289001CA387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopMarkets;
+			productName = TopMarkets;
+			productReference = BA3F0D851BC4B289001CA387 /* TopMarkets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA3F0DA01BC4B28A001CA387 /* TopMarketsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3F0DAE1BC4B28A001CA387 /* Build configuration list for PBXNativeTarget "TopMarketsTests" */;
+			buildPhases = (
+				BA3F0D9D1BC4B28A001CA387 /* Sources */,
+				BA3F0D9E1BC4B28A001CA387 /* Frameworks */,
+				BA3F0D9F1BC4B28A001CA387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3F0DA31BC4B28A001CA387 /* PBXTargetDependency */,
+			);
+			name = TopMarketsTests;
+			productName = TopMarketsTests;
+			productReference = BA3F0DA11BC4B28A001CA387 /* TopMarketsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3F0D7D1BC4B289001CA387 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kevin Perez";
+				TargetAttributes = {
+					BA3F0D841BC4B289001CA387 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BA3F0DA01BC4B28A001CA387 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BA3F0D841BC4B289001CA387;
+					};
+				};
+			};
+			buildConfigurationList = BA3F0D801BC4B289001CA387 /* Build configuration list for PBXProject "TopMarkets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA3F0D7C1BC4B289001CA387;
+			productRefGroup = BA3F0D861BC4B289001CA387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3F0D841BC4B289001CA387 /* TopMarkets */,
+				BA3F0DA01BC4B28A001CA387 /* TopMarketsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3F0D831BC4B289001CA387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3F0D971BC4B289001CA387 /* Main.storyboard in Resources */,
+				BA3F0DB51BC4C7B0001CA387 /* log in Resources */,
+				BADF61C51BC63E210099384D /* NASDAQ_Logo.png in Resources */,
+				BADF61C61BC63E210099384D /* NYSE-logo.png in Resources */,
+				BA3F0DB91BC4D8F0001CA387 /* 04_03_1-Stock-Market-Prices_web.jpg in Resources */,
+				BADF61C21BC63DAF0099384D /* dow-chemical-company-logo.jpg in Resources */,
+				BA3F0D9C1BC4B289001CA387 /* LaunchScreen.xib in Resources */,
+				BA3F0D991BC4B289001CA387 /* Images.xcassets in Resources */,
+				BA3F0DBD1BC4D99E001CA387 /* stockGraphImage.jpg in Resources */,
+				BAFAF6FD1BC8918800CF7B03 /* Newspaper.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3F0D9F1BC4B28A001CA387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3F0D811BC4B289001CA387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3F0D941BC4B289001CA387 /* CurrentValues.m in Sources */,
+				BA3F0D8E1BC4B289001CA387 /* AppDelegate.m in Sources */,
+				BA3F0DC01BC4DE62001CA387 /* CompanyDetails.m in Sources */,
+				BA3F0D911BC4B289001CA387 /* Companies.m in Sources */,
+				BA3F0DB31BC4BA7C001CA387 /* Stocks.m in Sources */,
+				BAFAF7021BC8954800CF7B03 /* NewsView.m in Sources */,
+				BADF61BD1BC630AC0099384D /* News.m in Sources */,
+				BA3F0D8B1BC4B289001CA387 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3F0D9D1BC4B28A001CA387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3F0DA81BC4B28A001CA387 /* TopMarketsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA3F0DA31BC4B28A001CA387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3F0D841BC4B289001CA387 /* TopMarkets */;
+			targetProxy = BA3F0DA21BC4B28A001CA387 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA3F0D951BC4B289001CA387 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3F0D961BC4B289001CA387 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA3F0D9A1BC4B289001CA387 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3F0D9B1BC4B289001CA387 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA3F0DA91BC4B28A001CA387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA3F0DAA1BC4B28A001CA387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA3F0DAC1BC4B28A001CA387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TopMarkets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KevinPerez.fsu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA3F0DAD1BC4B28A001CA387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TopMarkets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KevinPerez.fsu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA3F0DAF1BC4B28A001CA387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TopMarketsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KevinPerez.fsu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopMarkets.app/TopMarkets";
+			};
+			name = Debug;
+		};
+		BA3F0DB01BC4B28A001CA387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TopMarketsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KevinPerez.fsu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopMarkets.app/TopMarkets";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3F0D801BC4B289001CA387 /* Build configuration list for PBXProject "TopMarkets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3F0DA91BC4B28A001CA387 /* Debug */,
+				BA3F0DAA1BC4B28A001CA387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3F0DAB1BC4B28A001CA387 /* Build configuration list for PBXNativeTarget "TopMarkets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3F0DAC1BC4B28A001CA387 /* Debug */,
+				BA3F0DAD1BC4B28A001CA387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3F0DAE1BC4B28A001CA387 /* Build configuration list for PBXNativeTarget "TopMarketsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3F0DAF1BC4B28A001CA387 /* Debug */,
+				BA3F0DB01BC4B28A001CA387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA3F0D7D1BC4B289001CA387 /* Project object */;
+}
